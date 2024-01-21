@@ -16,7 +16,7 @@
 
 The test results of different large language models on the QA dataset for Chinese Construction Laws and Regulations are shown below. It is worth noting that these models are evaluated based on a qualification rate of 0.6.
 
-| # | Large Language Model | Publishing Institution |
+| # | Large Language Model | Publishing Institution | Large Language Model | Publishing Institution | 
 |-----|-----|-----|
 | 内容1 | 内容2 | 内容3 |
 
