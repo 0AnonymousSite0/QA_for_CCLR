@@ -18,7 +18,7 @@ This table below shows all supplemental materials. All sheets in Tables S1, S2, 
 
 ![Inventory of supplemental materials.png](https://s2.loli.net/2024/01/22/F6fcy3kaARv8hzM.png)
 
-[All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository]([链接URL](https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations))
+All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
 # 3. Ranking List
 
