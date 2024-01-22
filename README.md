@@ -42,7 +42,7 @@ The test results of different large language models on the QA dataset for Chines
 
 This table below shows all supplemental materials. All sheets in Tables S1, S2, and S3 are arranged in the order shown in this table.
 
-![image] (https://s2.loli.net/2024/01/22/YrNVA8gKcqIkl9i.png).
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/01/22/YrNVA8gKcqIkl9i.png)
 
 # 4. Repository reuse
 
