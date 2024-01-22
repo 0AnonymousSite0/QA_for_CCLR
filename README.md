@@ -314,10 +314,25 @@ zipp==3.17.0
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
 ## 4.2 Testing the models
-### 4.2.1 Codes for testing the models
+### 4.2.1 chroma-formatted vectorized CCLR knowledge graph
+The data layer development in CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
 
-![image](https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations/assets/39326629/d54dce69-cce9-43f6-96fa-b823aa599082)
-↑↑↑Codes for retraining the sentiment analysis models
+![the first layer of knowledge graph.png](https://s2.loli.net/2024/01/22/7498MLCUmz5FuyN.png)
+↑↑↑The first layer of knowledge graph
+
+![the second layer of knowledge graph.png](https://s2.loli.net/2024/01/22/fTV95qJgUuEMNm6.png)
+↑↑↑The second layer of knowledge graph
+
+![the third layer of knowledge graph.png](https://s2.loli.net/2024/01/22/2v8ranX3DqUVY4T.png)
+↑↑↑The third layer of knowledge graph
+
+### 4.2.2 Codes for testing the models
+Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
+
+![original LLMs目录截图.png](https://s2.loli.net/2024/01/22/fVB48XQCJWKz9x5.png)
+↑↑↑Codes for testing original large language models
 
 ![LLMs with KG 目录截图.png](https://s2.loli.net/2024/01/22/2I9iHBQl1xSWtAV.png)
-↑↑↑Codes for retraining the topic classification models
+↑↑↑Codes for testing large language models integrating knowledge graph
+
+![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
