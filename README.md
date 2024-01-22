@@ -336,3 +336,7 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 ↑↑↑Codes for testing large language models integrating knowledge graph
 
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
+↑↑↑Multiple original LLMs simultaneously answering the CLLR-related questions
+
+![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
+↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
