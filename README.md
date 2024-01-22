@@ -318,21 +318,26 @@ Before submitting these codes to Github, all of them have been tested to be well
 The data layer development in CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
 
 ![the first layer of knowledge graph.png](https://s2.loli.net/2024/01/22/7498MLCUmz5FuyN.png)
+
 ↑↑↑The first layer of knowledge graph
 
 ![the second layer of knowledge graph.png](https://s2.loli.net/2024/01/22/fTV95qJgUuEMNm6.png)
+
 ↑↑↑The second layer of knowledge graph
 
 ![the third layer of knowledge graph.png](https://s2.loli.net/2024/01/22/2v8ranX3DqUVY4T.png)
+
 ↑↑↑The third layer of knowledge graph
 
 ### 4.2.2 Codes for testing the models
 Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 ![original LLMs目录截图.png](https://s2.loli.net/2024/01/22/fVB48XQCJWKz9x5.png)
+
 ↑↑↑Codes for testing original large language models
 
 ![LLMs with KG 目录截图.png](https://s2.loli.net/2024/01/22/2I9iHBQl1xSWtAV.png)
+
 ↑↑↑Codes for testing large language models integrating knowledge graph
 
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
