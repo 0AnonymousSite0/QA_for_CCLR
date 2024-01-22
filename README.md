@@ -314,9 +314,10 @@ zipp==3.17.0
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
 ## 4.2 Testing the models
-### 4.2.2 Codes for testing the models
+### 4.2.1 Codes for testing the models
 
-
+![image](https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations/assets/39326629/d54dce69-cce9-43f6-96fa-b823aa599082)
 ↑↑↑Codes for retraining the sentiment analysis models
 
+![LLMs with KG 目录截图.png](https://s2.loli.net/2024/01/22/2I9iHBQl1xSWtAV.png)
 ↑↑↑Codes for retraining the topic classification models
