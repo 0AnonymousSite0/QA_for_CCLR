@@ -26,7 +26,7 @@ The test results of different large language models on the QA dataset for Chines
 
 | Large Language Model | Publishing Institution | Overall Scoring Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-| ERNIE-Bot 4.0 with knowledge graph | Baidu&The authors | 0.823 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
+| ERNIE-Bot 4.0 with knowledge graph | Baidu&The authors | 0.822 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
 | ERNIE-Bot 4.0 | Baidu | 0.757 | 0.783 | 0.718 | 0.762 | 0.768 | 0.724 | 0.724 | 0.731 | 0.788 | 2 |
 | GPT-4 with knowledge graph | OpenAI&The authors | 0.666 | 0.719 | 0.734 | 0.661 | 0.660 | 0.757 | 0.681 | 0.664 | 0.689 | 3 |
 | GPT-4 | OpenAI | 0.532 | 0.602 | 0.490 | 0.556 | 0.536 | 0.570 | 0.519 | 0.514 | 0.566 | 4 |
