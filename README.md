@@ -20,9 +20,9 @@ This table below shows all supplemental materials. All sheets in Tables S1, S2, 
 
 All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
-# 3. Ranking List
+# 3. LLM Leaderboard for CCLR QA
 
-The test results of different large language models on the QA dataset for Chinese Construction Laws and Regulations are shown below. It is worth noting that these models are evaluated based on a qualification rate of 0.6.
+The test results of different large language models on the QA dataset for Chinese Construction Laws and Regulations are shown below.
 
 | Large Language Model | Publishing Institution | Overall Scoring Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
