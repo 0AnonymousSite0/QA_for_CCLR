@@ -1,6 +1,6 @@
 # Integrating Domain-Specific Knowledge Graph with Large Language Model for Question-Answering (QA) of Construction Laws and Regulations
 
-## !!! As the paper is under work, all contents in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
+## !!! As the paper is under progress, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
 # 0. Videos of running the LLMs before and after integrating the CCLR knowledge graph
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
