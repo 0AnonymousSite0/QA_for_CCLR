@@ -1,4 +1,4 @@
-# Integrating Domain-Specific Knowledge Graph with Large Language Model for Question-Answering of Construction Laws and Regulations
+# Integrating Domain-Specific Knowledge Graph with Large Language Model for Question-Answering (QA) of Construction Laws and Regulations
 
 ## !!! As the paper is under work, all contents in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
