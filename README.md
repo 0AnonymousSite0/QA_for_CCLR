@@ -16,7 +16,7 @@
 
 This table below shows all supplemental materials. All sheets in Tables S1, S2, and S3 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials.png](https://s2.loli.net/2024/01/22/F6fcy3kaARv8hzM.png)
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/02/V5xRSmcfhaKArpg.png)
 
 All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
