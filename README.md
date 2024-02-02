@@ -10,9 +10,7 @@
 ↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
 
 
-# The inventory of all materials in this Github repository
-
-# 1. General Introduction
+# 1. General introduction of this repository
 
 1.1 This repository aims at providing the codes and data regarding the paper entitled “……” for the public, and it is developed by University of XXX in UK,  The University of XX in Hong Kong SAR, and XXX University in China.
 
@@ -20,7 +18,7 @@
 
 1.3 As for anything regarding the copyright, please refer to the MIT License or contact the authors.
 
-# 2. Summary of supplemental materials
+# 2. Summary of supplemental materials in this repository
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
@@ -51,15 +49,15 @@ The test results of different large language models on the QA dataset for Chines
 | Text-davinci-003 | OpenAI | 0.328 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
 | Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
 
-# 4. CCLR knowledge graph development
+# 4. Reuse of the CCLR knowledge graph 
 
-## 4.1 CCLR knowledge graph download
+## 4.1 Three optional versions of CCLR knowledge graph
 
 ![CCLR knowledge graph.png](https://s2.loli.net/2024/02/02/VXl7TG5KRdsU4cI.png)
 
 The CCLR knowledge graph is available through this link (https://drive.google.com/drive/folders/1G0mTvOg7cYZAXUC9VmPsPHuqZ1DpZH55?usp=sharing).
 
-## 4.2 Data layer development of CCLR knowledge graph
+## 4.2 Data layer details of CCLR knowledge graph
 
 The data layer development in the CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
 
@@ -89,8 +87,8 @@ Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 qu
 
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR).
 
-# 6. Repository reuse
-
+# 6. Reuse of the codes
+ 
 ## 6.1 Environment set
 
 All codes are developed on Python 3.9, and the IDE adopted is PyCharm (Professional version). The codes also support GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130. The GIS platform is Arcgis Pro 2.3, and its license is necessary. 
@@ -134,6 +132,10 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 ![LLMs with KG 目录截图.png](https://s2.loli.net/2024/01/22/2I9iHBQl1xSWtAV.png)
 
 ↑↑↑Codes for testing large language models integrating knowledge graph
+
+# 7. Reuse of the QA dataset 
+
+
 
 
 
