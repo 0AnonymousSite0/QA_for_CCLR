@@ -14,7 +14,7 @@
 
 1.1 This repository aims at providing the codes and data regarding the paper entitled “……” for the public, and it is developed by University of XXX in UK,  The University of XX in Hong Kong SAR, and XXX University in China.
 
-1.2 We greatly appreciate the selfless spirits of these voluntary contributors of a series of open python libraries, including Bert (https://github.com/google-research/bert), Tensorflow (https://github.com/tensorflow/models), pytorch (https://github.com/pytorch/pytorch), Keras (https://github.com/keras-team/keras), Numpy (https://numpy.org/), labelImg (https://github.com/tzutalin/labelImg), pyExcelerator (https://github.com/WoLpH/pyExcelerator), some base works (https://github.com/yongzhuo/Keras-TextClassification, https://github.com/zjunlp/DeepKE/tree/master), and so on. Our work stands on the shoulders of these giants.
+1.2 We greatly appreciate the selfless spirits of these voluntary contributors of a series of open python libraries, including langchain, llamaindex, meta's llama2, openai, chatglm, numpy, and so on. Our work stands on the shoulders of these giants.
 
 1.3 As for anything regarding the copyright, please refer to the MIT License or contact the authors.
 
@@ -28,7 +28,7 @@ All supplemental materials including shared codes, testing dataset, and develope
 
 # 3. LLM Leaderboard for CCLR QA
 
-The test results of different large language models on the QA dataset for Chinese Construction Laws and Regulations are shown below.
+The test results of different large language models on the QA dataset for Chinese Construction Laws and Regulations are shown below. Welcome global scholars to test their LLM works on CCLR QA, please see the following specification of reusing the QA dataset.
 
 | Large Language Model | Publishing Institution | Overall Scoring Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
