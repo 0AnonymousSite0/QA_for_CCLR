@@ -14,11 +14,11 @@
 
 # 2. Summary of supplemental materials
 
-This table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
+The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
 ![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/02/Pb8QhOYeawlDE1k.png)
 
-All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
+All supplemental materials including shared codes, testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
 # 3. LLM Leaderboard for CCLR QA
 
@@ -44,12 +44,15 @@ The test results of different large language models on the QA dataset for Chines
 | Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
 
 # 4. CCLR knowledge graph development
+
 ## 4.1 CCLR knowledge graph download
+
 ![CCLR knowledge graph.png](https://s2.loli.net/2024/02/02/VXl7TG5KRdsU4cI.png)
 
 The CCLR knowledge graph is available through this link (https://drive.google.com/drive/folders/1G0mTvOg7cYZAXUC9VmPsPHuqZ1DpZH55?usp=sharing).
 
 ## 4.2 Data layer development of CCLR knowledge graph
+
 The data layer development in the CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
 
 ![Fig. S1 The first layer of the knowledge graph.png](https://s2.loli.net/2024/02/02/926XPw7pKF1xGi4.png)
@@ -65,6 +68,7 @@ The data layer development in the CCLR knowledge graph includes determining the 
 ↑↑↑The third data layer of the knowledge graph
 
 # 5. Test dataset development
+
 Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 questions while other notable datasets such as c-eval typically consist of approximately 500 questions within a singular domain.
 
 ![QA_dataset in huggingface.png](https://s2.loli.net/2024/02/02/QSdy7GnkHYoUz51.png)
@@ -78,7 +82,9 @@ Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 qu
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR).
 
 # 6. Repository reuse
+
 ## 6.1 Environment set
+
 All codes are developed on Python 3.9, and the IDE adopted is PyCharm (Professional version). The codes also support GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130. The GIS platform is Arcgis Pro 2.3, and its license is necessary. 
 
 aiohttp==3.9.0
@@ -110,6 +116,7 @@ Please refer to the supplementary materials for the complete requirement file.(h
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
 ## 6.2 Codes for testing the models
+
 Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 ![original LLMs目录截图.png](https://s2.loli.net/2024/01/22/fVB48XQCJWKz9x5.png)
@@ -126,6 +133,7 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
 
 ↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
+
 #  Reusability
 
 ## About the knowledge graph
