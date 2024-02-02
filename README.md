@@ -14,9 +14,9 @@
 
 # 2. Summary of supplemental materials
 
-This table below shows all supplemental materials. All sheets in Tables S1, S2, and S3 are arranged in the order shown in this table.
+This table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/02/V5xRSmcfhaKArpg.png)
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/02/Pb8QhOYeawlDE1k.png)
 
 All supplemental materials including shared codes， testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
@@ -43,8 +43,42 @@ The test results of different large language models on the QA dataset for Chines
 | Text-davinci-003 | OpenAI | 0.328 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
 | Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
 
-# 4. Repository reuse
-## 4.1 Environment set
+# 4. CCLR knowledge graph development
+## 4.1 CCLR knowledge graph download
+![CCLR knowledge graph.png](https://s2.loli.net/2024/02/02/VXl7TG5KRdsU4cI.png)
+
+The CCLR knowledge graph is available through this link (https://drive.google.com/drive/folders/1G0mTvOg7cYZAXUC9VmPsPHuqZ1DpZH55?usp=sharing).
+
+## 4.2 Data layer development of CCLR knowledge graph
+The data layer development in the CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
+
+![Fig. S1 The first layer of the knowledge graph.png](https://s2.loli.net/2024/02/02/926XPw7pKF1xGi4.png)
+
+↑↑↑The first data layer of the knowledge graph
+
+![Fig. S2.png](https://s2.loli.net/2024/02/02/ekjHbGnOrcEPMzt.png)
+
+↑↑↑The second data layer of the knowledge graph
+
+![Fig. S3.png](https://s2.loli.net/2024/02/02/yV4x5z2kwESihoe.png)
+
+↑↑↑The third data layer of the knowledge graph
+
+# 5. Test dataset development
+Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 questions while other notable datasets such as c-eval typically consist of approximately 500 questions within a singular domain.
+
+![QA_dataset in huggingface.png](https://s2.loli.net/2024/02/02/QSdy7GnkHYoUz51.png)
+
+↑↑↑The QA dataset in huggingface
+
+![A example of one single-answer and multi-answer question in CCLR QA dataset.png](https://s2.loli.net/2024/02/02/o8raWi4hHUOC6mf.png)
+
+↑↑↑The examples of one single-answer and multi-answer question in the CCLR QA dataset
+
+More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR).
+
+# 6. Repository reuse
+## 6.1 Environment set
 All codes are developed on Python 3.9, and the IDE adopted is PyCharm (Professional version). The codes also support GPU computing for higher speed; the Navida CUDA we adopted is V10.0.130. The GIS platform is Arcgis Pro 2.3, and its license is necessary. 
 
 aiohttp==3.9.0
@@ -75,28 +109,7 @@ Please refer to the supplementary materials for the complete requirement file.(h
 
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
-## 4.2 Large language models test
-### 4.2.1 CCLR knowledge graph download
-![CCLR knowledge graph.png](https://s2.loli.net/2024/02/02/VXl7TG5KRdsU4cI.png)
-
-CCLR knowledge graph are available through this link (https://drive.google.com/drive/folders/1G0mTvOg7cYZAXUC9VmPsPHuqZ1DpZH55?usp=sharing).
-
-### 4.2.2 Chroma-formatted vectorized CCLR knowledge graph
-The data layer development in CCLR knowledge graph includes determining the three-tier knowledge domain framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
-
-![Fig. S1 The first layer of knowledge graph.png](https://s2.loli.net/2024/02/02/926XPw7pKF1xGi4.png)
-
-↑↑↑The first layer of knowledge graph
-
-![Fig. S2.png](https://s2.loli.net/2024/02/02/ekjHbGnOrcEPMzt.png)
-
-↑↑↑The second layer of knowledge graph
-
-![Fig. S3.png](https://s2.loli.net/2024/02/02/yV4x5z2kwESihoe.png)
-
-↑↑↑The third layer of knowledge graph
-
-### 4.2.3 Codes for testing the models
+## 6.2 Codes for testing the models
 Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 ![original LLMs目录截图.png](https://s2.loli.net/2024/01/22/fVB48XQCJWKz9x5.png)
@@ -111,4 +124,25 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 ↑↑↑Multiple original LLMs simultaneously answering the CLLR-related questions
 
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
+
 ↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
+#  Reusability
+
+## About the knowledge graph
+This knowledge graph is a reusable resource that you are free to use and modify. It is intended to provide useful information and references for various projects and applications. We encourage you to integrate it into your projects to enrich the experience for your users and community.
+
+### How to Reuse
+
+1. **Integrate into Your Project:** Include the knowledge graph files directly into your project and modify them as needed.
+2. **Reference and Share:** Reference the knowledge graph in your documentation, blogs, or other media, and share it with your team and community.
+
+## About the dataset
+The dataset provided here is intended for reuse in various projects and research endeavors. Whether for academic research, machine learning model training, or data analysis tasks, you are encouraged to utilize this dataset to its fullest extent.
+
+# Contributions
+
+If you wish to improve or add content, feel free to submit pull requests. We welcome and appreciate your contributions!
+
+Email: shenghua@connect.hku.hk
+
+
