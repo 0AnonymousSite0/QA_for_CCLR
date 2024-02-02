@@ -73,7 +73,7 @@ The data layer development in the CCLR knowledge graph includes determining the 
 
 ↑↑↑The third data layer of the knowledge graph
 
-# 5. Test dataset development
+# 5. Reuse of the CCLR QA dataset
 
 Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 questions while other notable datasets such as c-eval typically consist of approximately 500 questions within a singular domain.
 
@@ -87,7 +87,7 @@ Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 qu
 
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR).
 
-# 6. Reuse of the codes
+# 6. Reuse of the codes for running LLMs with and without CCLR knowledge graph
  
 ## 6.1 Environment set
 
@@ -133,7 +133,6 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 
 ↑↑↑Codes for testing large language models integrating knowledge graph
 
-# 7. Reuse of the QA dataset 
 
 
 
