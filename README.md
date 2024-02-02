@@ -2,7 +2,15 @@
 
 ## !!! As the paper is under work, all contents in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
-# 0. The inventory of all materials in this Github repository
+# 0. Videos of running the LLMs before and after integrating the CCLR knowledge graph
+![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
+↑↑↑Multiple original LLMs simultaneously answering the CLLR-related questions
+
+![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
+↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
+
+
+# The inventory of all materials in this Github repository
 
 # 1. General Introduction
 
@@ -115,7 +123,7 @@ Please refer to the supplementary materials for the complete requirement file.(h
 
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
-## 6.2 Codes for testing the models
+## 6.2 Codes for testing the LLMs
 
 Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
@@ -127,30 +135,5 @@ Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs 
 
 ↑↑↑Codes for testing large language models integrating knowledge graph
 
-![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
-↑↑↑Multiple original LLMs simultaneously answering the CLLR-related questions
-
-![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
-
-↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CLLR-related questions
-
-#  Reusability
-
-## About the knowledge graph
-This knowledge graph is a reusable resource that you are free to use and modify. It is intended to provide useful information and references for various projects and applications. We encourage you to integrate it into your projects to enrich the experience for your users and community.
-
-### How to Reuse
-
-1. **Integrate into Your Project:** Include the knowledge graph files directly into your project and modify them as needed.
-2. **Reference and Share:** Reference the knowledge graph in your documentation, blogs, or other media, and share it with your team and community.
-
-## About the dataset
-The dataset provided here is intended for reuse in various projects and research endeavors. Whether for academic research, machine learning model training, or data analysis tasks, you are encouraged to utilize this dataset to its fullest extent.
-
-# Contributions
-
-If you wish to improve or add content, feel free to submit pull requests. We welcome and appreciate your contributions!
-
-Email: shenghua@connect.hku.hk
 
 
