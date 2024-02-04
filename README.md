@@ -22,7 +22,7 @@
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/02/Pb8QhOYeawlDE1k.png)
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/04/7xyO6IdbJHiAgrP.png)
 
 All supplemental materials including shared codes, testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
 
@@ -63,15 +63,15 @@ The data layer development in the CCLR knowledge graph includes determining the 
 
 ![Fig. S1 The first layer of the knowledge graph.png](https://s2.loli.net/2024/02/02/926XPw7pKF1xGi4.png)
 
-↑↑↑The first data layer of the knowledge graph
+↑↑↑201 triples of [knowledge domain,, has subdomain of, knowledge domain]
 
 ![Fig. S2.png](https://s2.loli.net/2024/02/02/ekjHbGnOrcEPMzt.png)
 
-↑↑↑The second data layer of the knowledge graph
+↑↑↑657 triples of [knowledge domain, is related to, law and regulation]
 
 ![Fig. S3.png](https://s2.loli.net/2024/02/02/yV4x5z2kwESihoe.png)
 
-↑↑↑The third data layer of the knowledge graph
+↑↑↑2,213 triples of [law and regulation, contains, clause]
 
 # 5. Reuse of the CCLR QA dataset
 
