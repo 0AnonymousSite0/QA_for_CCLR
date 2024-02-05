@@ -22,9 +22,9 @@
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/04/7xyO6IdbJHiAgrP.png)
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/05/SHIK57Evf32CnLs.png)
 
-All supplemental materials including shared codes, testing dataset, and developed Chinese Construction Laws and Regulations are available in the GitHub repository(https://github.com/0AnonymousSite0/shenghuazhou-QA_for_Chinese_Construction_Laws_and_Regulations)
+All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CCLR).
 
 # 3. LLM Leaderboard for CCLR QA
 
