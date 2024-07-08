@@ -22,7 +22,7 @@
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, and S4 are arranged in the order shown in this table.
 
-![Inventory of supplemental materials.png](https://s2.loli.net/2024/02/07/d9hz2vca614jAC8.png)
+![Inventory of supplemental materials1.png](https://s2.loli.net/2024/07/08/eE9KfbGjRn5O1uD.png)
 
 All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CCLR). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CCLR).
 
@@ -32,22 +32,22 @@ The test results of different large language models on the QA dataset for Chines
 
 | Large Language Model | Publishing Institution | Overall Scoring Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-| ERNIE-Bot 4.0 with knowledge graph | Baidu&The authors | 0.822 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
-| ERNIE-Bot 4.0 | Baidu | 0.757 | 0.783 | 0.718 | 0.762 | 0.768 | 0.724 | 0.724 | 0.731 | 0.788 | 2 |
-| GPT-4 with knowledge graph | OpenAI&The authors | 0.666 | 0.719 | 0.734 | 0.661 | 0.660 | 0.757 | 0.681 | 0.664 | 0.689 | 3 |
-| GPT-4 | OpenAI | 0.532 | 0.602 | 0.490 | 0.556 | 0.536 | 0.570 | 0.519 | 0.514 | 0.566 | 4 |
-| GPT-3.5-turbo with knowledge graph | OpenAI&The authors | 0.504 | 0.532 | 0.503 | 0.527 | 0.472 | 0.626 | 0.522 | 0.540 | 0.467 | 5 |
-| ChatGLM3-6B with knowledge graph | Tsinghua & Zhipu.AI | 0.483 | 0.497 | 0.444 | 0.510 | 0.421 | 0.540 | 0.596 | 0.543 | 0.444 | 6 |
-| Text-davinci-003 with knowledge graph | OpenAI&The authors | 0.482 | 0.507 | 0.521 | 0.470 | 0.478 | 0.582 | 0.516 | 0.510 | 0.516 | 7 |
-| Qianfan-Chinese-Llama-2-7B with knowledge graph| Baidu&The authors | 0.474 | 0.474 | 0.486 | 0.494 | 0.469 | 0.570 | 0.529 | 0.514 | 0.470 | 8 |
-| ChatGLM2-6B with knowledge graph | Tsinghua & Zhipu.AI | 0.472 | 0.471 | 0.469 | 0.488 | 0.464 | 0.517 | 0.507 | 0.528 | 0.462 | 9 |
-| ChatGLM2-6B | Tsinghua & Zhipu.AI | 0.430 | 0.454 | 0.412 | 0.477 | 0.409 | 0.469 | 0.444 | 0.494 | 0.420 | 10 |
-| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.399 | 0.452 | 0.389 | 0.415 | 0.356 | 0.412 | 0.389 | 0.416 | 0.399 | 11 |
-| Qianfan-Chinese-Llama-2-7B | Baidu | 0.373 | 0.421 | 0.377 | 0.364 | 0.359 | 0.422 | 0.374 | 0.411 | 0.358 | 12 |
-| GPT-3.5-turbo | OpenAI | 0.348 | 0.422 | 0.317 | 0.368 | 0.322 | 0.438 | 0.332 | 0.405 | 0.333 | 13 |
-| Llama-2-70b with knowledge graph | MetaAI&The authors | 0.377 | 0.335 | 0.369 | 0.323 | 0.328 | 0.414 | 0.354 | 0.335 | 0.332 | 14 |
-| Text-davinci-003 | OpenAI | 0.328 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
-| Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
+| ERNIE-Bot 4.0 with knowledge graph | Baidu & The authors | 0.822 | 0.850 | 0.828 | 0.836 | 0.803 | 0.843 | 0.844 | 0.800 | 0.860 | 1 |
+| ERNIE-Bot 4.0 | Baidu | 0.757 | 0.783 | 0.716 | 0.763 | 0.769 | 0.718 | 0.725 | 0.732 | 0.785 | 2 |
+| GPT-4 with knowledge graph | OpenAI & The authors | 0.663 | 0.720 | 0.731 | 0.668 | 0.656 | 0.754 | 0.685 | 0.668 | 0.688 | 3 |
+| GPT-4 | OpenAI | 0.537 | 0.602 | 0.487 | 0.559 | 0.537 | 0.565 | 0.517 | 0.513 | 0.566 | 4 |
+| GPT-3.5-turbo with knowledge graph | OpenAI & The authors | 0.503 | 0.532 | 0.505 | 0.523 | 0.468 | 0.613 | 0.522 | 0.544 | 0.464 | 5 |
+| ChatGLM3-6B with knowledge graph | Tsinghua, Zhipu.AI & The authors | 0.483 | 0.497 | 0.450 | 0.509 | 0.428 | 0.536 | 0.499 | 0.545 | 0.445 | 6 |
+| Text-davinci-003 with knowledge graph | OpenAI & The authors | 0.481 | 0.507 | 0.522 | 0.470 | 0.479 | 0.576 | 0.514 | 0.515 | 0.514 | 7 |
+| Qianfan-Chinese-Llama-2-7B with knowledge graph| Baidu & The authors | 0.474 | 0.474 | 0.490 | 0.493 | 0.467 | 0.560 | 0.530 | 0.517 | 0.474 | 8 |
+| ChatGLM2-6B with knowledge graph | Tsinghua, Zhipu.AI & The authors | 0.467 | 0.469 | 0.468 | 0.488 | 0.462 | 0.515 | 0.504 | 0.530 | 0.465 | 9 |
+| ChatGLM2-6B | Tsinghua & Zhipu.AI | 0.427 | 0.452 | 0.411 | 0.475 | 0.412 | 0.461 | 0.447 | 0.492 | 0.421 | 10 |
+| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.399 | 0.454 | 0.391 | 0.412 | 0.362 | 0.410 | 0.388 | 0.416 | 0.400 | 11 |
+| Qianfan-Chinese-Llama-2-7B | Baidu | 0.373 | 0.419 | 0.380 | 0.368 | 0.360 | 0.415 | 0.376 | 0.416 | 0.357 | 12 |
+| GPT-3.5-turbo | OpenAI | 0.346 | 0.425 | 0.316 | 0.362 | 0.326 | 0.432 | 0.332 | 0.406 | 0.334 | 13 |
+| Llama-2-70b with knowledge graph | MetaAI & The authors | 0.377 | 0.336 | 0.368 | 0.320 | 0.331 | 0.411 | 0.354 | 0.337 | 0.336 | 14 |
+| Text-davinci-003 | OpenAI | 0.327 | 0.352 | 0.316 | 0.341 | 0.337 | 0.381 | 0.344 | 0.363 | 0.343 | 15 |
+| Llama-2-70b | MetaAI | 0.284 | 0.285 | 0.338 | 0.255 | 0.316 | 0.312 | 0.288 | 0.302 | 0.295 | 16 |
 
 # 4. Reuse of the CCLR knowledge graph 
 
@@ -75,7 +75,7 @@ The data layer development in the CCLR knowledge graph includes determining the 
 
 # 5. Reuse of the CCLR QA dataset
 
-Our dataset is specifically tailored to the CCLR domain and encompasses 6,339 questions while other notable datasets such as c-eval typically consist of approximately 500 questions within a singular domain.
+Our dataset is specifically tailored to the CCLR domain and encompasses 6,179 questions while other notable datasets such as c-eval typically consist of approximately 500 questions within a singular domain.
 
 ![QA_dataset in huggingface.png](https://s2.loli.net/2024/02/02/QSdy7GnkHYoUz51.png)
 
